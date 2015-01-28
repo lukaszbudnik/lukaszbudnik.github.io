@@ -27,28 +27,20 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>
-<a id="multitenant--encryption-data-access-layer-pocs" class="anchor" href="#multitenant--encryption-data-access-layer-pocs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Multitenant &amp; encryption data access layer POCs</h3>
-
-<p>There were two objectives for these POCs, namely: 1) support for multitenancy 2) support for encrypted entities. Below POCs are far from being finished. Every POC uses a different approach and it's not that easy to compare them. EclipseLink is the weakest POC due to its approach (eager encryption/decryption) and the fact that EclipseLink is too chatty. EclipseLink uses too many queries even for simple setting FK - compared to much better Hibernate. Also, Hibernate second level cache works like a charm and EclipseLink throws NPE. On the other hand EclipseLink has better support for multitenancy. Slick2 POC uses PlainSQL and requires some SQL to be written by hand, but on the other hand you have a full control of what you are doing.</p>
+        <h2>
+<a id="my-links" class="anchor" href="#my-links" aria-hidden="true"><span class="octicon octicon-link"></span></a>My links</h2>
 
 <ul>
 <li>
-<a href="https://github.com/lukaszbudnik/slick-multitenant">https://github.com/lukaszbudnik/slick-multitenant</a> - Slick2 multitenant Scala application. Encryption/decryption is implemented via Scala implicits.</li>
+<a href="https://www.linkedin.com/in/budnik">https://www.linkedin.com/in/budnik</a> - linkedin profile.</li>
 <li>
-<a href="https://github.com/lukaszbudnik/hibernate-multitenant">https://github.com/lukaszbudnik/hibernate-multitenant</a> - JPA Hibernate multitenant application with encrypted entities using @PrePersist/@PreUpdate and @PostLoad lifecycle callbacks.</li>
+<a href="https://lukaszbudnik.blogspot.com">https://lukaszbudnik.blogspot.com</a> - blog.</li>
 <li>
-<a href="https://github.com/lukaszbudnik/eclipselink-multitenant">https://github.com/lukaszbudnik/eclipselink-multitenant</a> - JPA EclipseLink multitenant application with encrypted entities using eager FieldTransformer and AttributeTransformer. </li>
-</ul>
-
-<p>My verdict is - Hibernate.</p>
-
-<h3>
-<a id="slides-and-presentations" class="anchor" href="#slides-and-presentations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Slides and presentations</h3>
-
-<ul>
+<a href="https://github.com/lukaszbudnik">https://github.com/lukaszbudnik</a> - public repos.</li>
 <li>
-<a href="http://slides.com/lukaszbudnik/automating-infrastructure-in-the-cloud#/">http://slides.com/lukaszbudnik/automating-infrastructure-in-the-cloud#/</a> - Presentation showing how infrastructure management is done in Kainos Smart. Kainos Smart is a cloud SaaS product and automation of the infrastructure is very important. In Kainos Smart everything is automated and follows infrastructure-as-code paradigm. Topics covered in presentation are: puppet, vagrant, packer, docker, cloudformation, and security. Note this is only slides deck not a full presentation.</li>
+<a href="https://slides.com/lukaszbudnik">https://slides.com/lukaszbudnik</a> - presentations. </li>
+<li>
+<a href="https://twitter.com/lukaszbudnik">@lukaszbudnik</a> - Twitter. </li>
 </ul>
       </section>
     </div>
